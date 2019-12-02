@@ -1,0 +1,24 @@
+{
+  "name": "instructor-skill--remediation",
+  "version": "0.0.1",
+  "description": "",
+  "author": "Adjacent Academies",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adjacent-academies/instructors"
+  },
+  "scripts": {
+    "test": "npm run all",
+    "t1": "jest --coverage --noStackTrace --silent magic_square 01",
+    "t2": "jest --coverage --noStackTrace --silent magic_square 02",
+    "t3": "jest --coverage --noStackTrace --silent magic_square 03",
+    "t4": "jest --coverage --noStackTrace --silent magic_square 04",
+    "t5": "jest --coverage --noStackTrace --silent magic_square 05",
+    "all": "npm run t1; npm run t2; npm run t3; npm run t4; npm run t5"
+  },
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}
