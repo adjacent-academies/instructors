@@ -6,6 +6,14 @@
 4. Orientation
 5. Scaffolding
 
+## Remediation Summary
+
+These students were pushed outside their zone of proximal development. We need to move them back into their ZPD and get them practicing the right fundamental habits ASAP. In particular, they don't appear to have a solid handle in breaking down a problem and tackling it systematically / iteratively.
+
+Rather than giving them all individual feedback, which would require a lot of time, duplicated efforts, and runs a good risk of making them feel like they totally failed, I'd emphasize the fact that what it tells me is we need practice in breaking down problems and expressing things in code.
+
+I'd then present the below exercise to them (fleshed out, of course) and have them spend ~1hr working in pairs or small groups on the various iterations. I'd ask them to stop after each iteration and ask another pair for feedback.
+
 ## Magic Square
 
 A magic square is an `N`-by-`N` grid of numbers where the numbers in each row, the numbers in each column, and the numbers along the two diagonals all add up to the same, single "magic number."
