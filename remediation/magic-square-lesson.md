@@ -10,6 +10,9 @@
 
 https://www.loom.com/share/3d23afd4fd3348e0ac6678f746b0216c
 
+12m50s
+28 min
+
 ## Remediation Summary
 
 These students were pushed outside their zone of proximal development. We need to move them back into their ZPD and get them practicing the right fundamental habits ASAP. In particular, they don't appear to have a solid handle in breaking down a problem and tackling it systematically / iteratively.
@@ -48,6 +51,11 @@ You can assume the following about the input:
 1. The numbers don't need to be distinct or consecutive
 
 ## Orientation
+
+When you define a function, remember to always be 150% clear on the following two questions:
+
+1. What types of input should it handle? Numbers? Strings? Are there any restrictions or assumptions about the input?
+1. What will the function return? A boolean value? A positive integer? A string?
 
 ## Iterations
 
