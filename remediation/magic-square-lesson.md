@@ -6,6 +6,10 @@
 4. Orientation
 5. Scaffolding
 
+## Loom Video
+
+https://www.loom.com/share/3d23afd4fd3348e0ac6678f746b0216c
+
 ## Remediation Summary
 
 These students were pushed outside their zone of proximal development. We need to move them back into their ZPD and get them practicing the right fundamental habits ASAP. In particular, they don't appear to have a solid handle in breaking down a problem and tackling it systematically / iteratively.
