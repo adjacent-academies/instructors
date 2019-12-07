@@ -28,6 +28,8 @@ You'll also learn a bit about one of the most important resources here: your pee
 
 ## Demo
 
-Here I would walk through the logistics of the exercise: how to save the URLs, how them how to select lines of code in GitHub and save the URL, etc.
+Here I would walk through the logistics of the exercise: how to save the URLs, how them how to select lines of code in GitHub and save the URL, etc. We'd pause every 15 minutes, so after the first 15 I'd give them an opportunity to check in and re-orient.
+
+I'd want the experience to be as kinetic as possible, though. Less orientation up front, and more opportunities for re-orientation via regular intervals.
 
 The exercise: [https://github.com/adjacent-academies/instructors/tree/master/orientation/scavenger-hunt](https://github.com/adjacent-academies/instructors/tree/master/orientation/scavenger-hunt)
