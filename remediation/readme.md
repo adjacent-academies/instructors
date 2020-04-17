@@ -1,23 +1,17 @@
-## introduction
+## Introduction
 
-given this test question and student attempt (see failing tests), what would your recommendation be?
+Look in the `code-samples` directory to see three code samples from **the same** student. Your goal is to figure out what they're confused about a give them feedback.
 
 ## activity
 
-respond *to at least one* of these 5 student submissions.  please use Loom.com to record a video of your response (whether your frame is one of "writing code in response to the student" or "pretending to speak directly to the student while looking at their code", it's up to you).
+Look at the three code samples and write a review as if this were code written by one of your students. Each file represents one "exercise" where they're given a description of what the function is meant to doand the function definition, but otherwise the file is empty.
 
-if you do produce code as output, please submit a PR so we can inspect the diff.  \
---> name the branch for the PR `remediation.new--YOUR_NAME`
+For example, this is what the student sees when starting the `countValue` exerise: <https://github.com/jfarmer/exercises-javascript-fundamentals/blob/master/exercises/arrays/countValue/countValue.js>
 
-have improvements to this activity?   \
---> submit a PR on a branch named `content.[fix|new]--YOUR_SUGGESTION`
+What do you think they're confused about? How can you give feedback that helps them be less confused? What technical concepts are they misunderstanding and in what way are they misunderstanding it?
 
+## Steps
 
-## steps
-
-1. `git clone` this repo
-2. `npm install`
-3. `npm test` (alt. `npm run t#` where `#` is a number between 1 and 5)
-4. review the output of the tests, coverage report and offending code
-5. pick *at least one student* submission (1 - 5) to review
-6. record yourself while you do what you do best: provide some meaningful feedback
+1. Fork this repository
+1. Submit a PR against your fork to the main repository
+1. On the PR, write a review / leave comments as if they were feedback to the students
