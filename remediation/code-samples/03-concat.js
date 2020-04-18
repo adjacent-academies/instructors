@@ -1,4 +1,5 @@
 /**
+ * 
  * Given two arrays, returns a new array that is a concatenation of the
  * two given arrays.
  *
