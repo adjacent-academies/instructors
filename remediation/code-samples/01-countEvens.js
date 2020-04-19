@@ -22,6 +22,9 @@ function countEvens(array) {
   return array.length;
 }
 
+// This is a great function!
+// However, let's say that countEvens([2,2,8,4]) returns 4 and you want to check that it's correct.
+// Can you think of a simpler way to check if 4 equals 4?
 function check(output, expected)
 {
   if (output.length !== expected.length){
@@ -39,6 +42,9 @@ function check(output, expected)
 if (require.main === module) {
   console.log('Running sanity checks for countEvens:');
   console.log(check(countEvens([1,2,3,4]),2));
+  // countEvens([2,2,8,4]) returns 4 yet the check below claims that it returns 2!
+  // Test out your check function with a couple different inputs to make sure it behaves as expected
+  // Example: check(1, 2) returns true when it should be false
   console.log(check(countEvens([2,2,8,4]),2));
   console.log(check(countEvens([100]),1));
   console.log(check(countEvens([3,3,3,3]),0));

@@ -14,6 +14,9 @@
  * @param {object} - A value to count
  * @returns {number} The number of times the value appears in the array
  */
+// (After the student fixes the check function they'll find some issues with the countValue function)
+// (I'll suggest that they put a console.log(array[i]); into this function so they can see what's going on)
+// (Answer: the splice function is changing the underlying array so some values are being skipped)
 function countValue(array, value) {
   for(i=0;i<array.length;i++)
   {
@@ -25,6 +28,7 @@ function countValue(array, value) {
   return array.length;
 }
 
+// see 01-countEvens.js for comments about the check function
 function check(output, expected)
 {
   if (output.length !== expected.length){

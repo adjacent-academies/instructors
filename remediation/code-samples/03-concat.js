@@ -26,6 +26,13 @@
  let nickels = [5,5];
  let dimeNickel = ['10','10','5','5'];
 
+// (The student will find some more issues with their concat function after further testing)
+// (I would direct them to look up javascript array methods on MDN to see if they can get any
+// ideas from seeing all the available tools)
+// (If they're still stuck I will ask them to describe several solutions in pseudocode and
+// we'll pick a working solution together)
+// A potential answer: the student can loop through rightArray with ForEach and push each
+// value onto the end of leftArray
 function concat(leftArray, rightArray) {
   let left = leftArray.join(",");
   let right = rightArray.join(",");
@@ -48,7 +55,8 @@ function check(output, expected)
       return false;
     }
   }
-
+  // When we sanity check our code we typically want to err on the side of caution.
+  // Do you see an issue with returning true if none of the "return false" statements are triggered?
   return true;
 }
 
@@ -67,6 +75,11 @@ function check(output, expected)
 
 
 if (require.main === module) {
+  // These sanity checks look great! Are there examples where the concat function doesn't work as expected?
+  // When we perform sanity checks on our code we generally want to give it some tough cases
+  // so we can find bugs sooners
+  // Try testing your concat function on the examples given at the top of this file.
+  // Do you see cases where your function doesn't return the same output?
   console.log(check(concat(['1','2'],['2','1']),['1','2','2','1']));
   console.log(check(concat(['2','2','3'],['2','1']),['2','2','3','2','1']));
 }
