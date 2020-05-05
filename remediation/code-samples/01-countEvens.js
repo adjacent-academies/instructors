@@ -11,7 +11,9 @@
  * @param {number[]} array - An array of numbers
  * @returns {number} The count of even integers in the array
  */
-function countEvens(array) {
+
+// PLEASE REVIEW
+ function countEvens(array) {
   for(i=0;i<array.length;i++)
   {
     if(array[i]%2 != 0)
@@ -22,6 +24,7 @@ function countEvens(array) {
   return array.length;
 }
 
+// PLEASE REVIEW
 function check(output, expected)
 {
   if (output.length !== expected.length){
@@ -39,7 +42,7 @@ function check(output, expected)
 if (require.main === module) {
   console.log('Running sanity checks for countEvens:');
   console.log(check(countEvens([1,2,3,4]),2));
-  console.log(check(countEvens([2,2,8,4]),2));
+  console.log(check(countEvens([2,2,8,4]),2)); // PLEASE REVIEW
   console.log(check(countEvens([100]),1));
   console.log(check(countEvens([3,3,3,3]),0));
 

@@ -14,6 +14,8 @@
  * @param {object} - A value to count
  * @returns {number} The number of times the value appears in the array
  */
+
+ // PLEASE REVIEW
 function countValue(array, value) {
   for(i=0;i<array.length;i++)
   {
@@ -25,6 +27,7 @@ function countValue(array, value) {
   return array.length;
 }
 
+// PLEASE REVIEW
 function check(output, expected)
 {
   if (output.length !== expected.length){

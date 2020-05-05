@@ -26,6 +26,7 @@
  let nickels = [5,5];
  let dimeNickel = ['10','10','5','5'];
 
+ // PLEASE REVIEW
 function concat(leftArray, rightArray) {
   let left = leftArray.join(",");
   let right = rightArray.join(",");
