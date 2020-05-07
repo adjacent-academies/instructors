@@ -13,7 +13,7 @@ But wait, there's more. . .
 
 I'm quickly glancing at your line 42.  Are you sure that array only has 2 even numbers in it?  It looks to me like it has 4. Unless you were trying to get a false here (?)  It seems to me that if you are going to write a testing function, use the values that are given in the original problem -- meaning: lines 7-9.  I do see that line 9 would produce a false value, which is maybe what you were going for in your line 42.
 
-The moral of this story, in my mind, is maybe it would be a good idea to focus right now on the function itself, and wait until you've mastered that to write a testing function.
+Maybe it would be a good idea to focus right now on the function itself, and wait until you've mastered that to write a testing function.
 
 2) Important note on 'for' loops: 
 
@@ -33,6 +33,6 @@ Basically, in JavaScript, if you are making a comparison that involves zero, ple
 
 4) Code formatting / consistency
 
-One day, I assume, you would like to be a professional coder -- and why not, it is awesome.  But when this happens you will probably be coding on a team and consistent formatting a style will be enormously appreciated by your teammates.  I'm assuming that adjacent academies has given you coding style guidelines.  Please follow them!  I know this seems picky but when you're looking at code for 8 hours a day it really helps.  Also, you used 'let' in one 'for' loop and not the other.  As a practice, I choose to use 'let' in all for loops.
+One day, you would probably like to be a professional coder -- and why not, it is awesome.  But when this happens you will likely be coding on a team and consistent formatting will be enormously appreciated by your teammates.  I'm assuming that adjacent academies has given you coding style guidelines.  Please follow them!  I know this seems picky but when you're looking at code for 8 hours a day it really helps.  Also, you used 'let' in one 'for' loop and not the other.  As a practice, please use 'let' in all for loops.
 
 */

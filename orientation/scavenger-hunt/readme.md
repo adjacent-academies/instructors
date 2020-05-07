@@ -24,7 +24,7 @@ _(if you want to check these boxes off you'll need to "fork" this gist to your o
 - [ ] find a single line comment (hint: look for the `//`)
 - [ ] find a multi-line comment (hint: look for the `/* ... */`)
 - [ ] find a documentation comment (hint: look for the `/** ... */`)
-- [ ] find a variable declared with `var` (as of 2015, `var` is discouraged because of it's confusing relationship with scope)
+- [ ] find a variable declared with `var` (as of 2015, `var` is discouraged because of its confusing relationship with scope)
 - [ ] find a variable declared with `const`
 - [ ] find a variable declared with `let`
 - [ ] find a boolean
