@@ -13,7 +13,7 @@ Very picky of me, but as you move forward, it would be great if you'd delete unu
 
 3) Very picky point of mine, forgive me. . .
 
-What if one of the original arrays given as an argument had a string with a comma in it?   I'm pretty sure that would break this.  Can you think of a way to be prepared for this possibility?
+What if one of the original arrays given as an argument had a string with a comma in it?  In other words what if the two arrays that needed to be concatenated were: ['two,words', 234], [true, 'waffles,pancakes']? I'm pretty sure that would break this.  Can you think of a way to be prepared for this possibility?
 
 4) Pro tip
 

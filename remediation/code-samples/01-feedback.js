@@ -11,9 +11,7 @@ In your testing function, what does the second argument's data type need to be? 
 
 But wait, there's more. . . 
 
-I'm quickly glancing at your line 42.  Are you sure that array only has 2 even numbers in it?  It looks to me like it has 4. Unless you were trying to get a false here (?)  It seems to me that if you are going to write a testing function, use the values that are given in the original problem -- meaning: lines 7-9.  I do see that line 9 would produce a false value, which is maybe what you were going for in your line 42.
-
-Maybe it would be a good idea to focus right now on the function itself, and wait until you've mastered that to write a testing function.
+I'm quickly glancing at your line 42.  Are you sure that array only has 2 even numbers in it?  It looks to me like it has 4. Unless you were trying to get a false here (?)  It seems to me that if you are going to write a testing function, use the values that are given in the original problem -- meaning: lines 7-9.  I do see that line 9 would produce a false value, which is maybe what you were going for in your line 42. My point is: make sure your testing answers are correct.
 
 2) Important note on 'for' loops: 
 
