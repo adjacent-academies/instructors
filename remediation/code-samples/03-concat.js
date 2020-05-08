@@ -22,9 +22,9 @@
  * @returns {object[]} The concatenation of the two given arrays
  */
 
- let dimes = [10,10];
- let nickels = [5,5];
- let dimeNickel = ['10','10','5','5'];
+let dimes = [10, 10];
+let nickels = [5, 5];
+let dimeNickel = ['10', '10', '5', '5'];
 
 function concat(leftArray, rightArray) {
   let left = leftArray.join(",");
@@ -37,14 +37,13 @@ function concat(leftArray, rightArray) {
   return concat;
 }
 
-function check(output, expected)
-{
-  if (output.length !== expected.length){
+function check(output, expected) {
+  if (output.length !== expected.length) {
     return false;
   }
-  
-  for (let i = 0; i < output.length; i++){
-    if (output[i] !== expected[i]){
+
+  for (let i = 0; i < output.length; i++) {
+    if (output[i] !== expected[i]) {
       return false;
     }
   }
@@ -65,10 +64,10 @@ function check(output, expected)
   return match;
 }*/
 
-
+console.log(require)
 if (require.main === module) {
-  console.log(check(concat(['1','2'],['2','1']),['1','2','2','1']));
-  console.log(check(concat(['2','2','3'],['2','1']),['2','2','3','2','1']));
+  console.log(check(concat(['1', '2'], ['2', '1']), ['1', '2', '2', '1']));
+  console.log(check(concat(['2', '2', '3'], ['2', '1']), ['2', '2', '3', '2', '1']));
 }
 
 module.exports = concat;
