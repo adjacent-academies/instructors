@@ -4,7 +4,7 @@ Look in the `code-samples` directory to see three code samples from **the same**
 
 ## activity
 
-Look at the three code samples and write a review as if this were code written by one of your students. Each file represents one "exercise" where they're given a description of what the function is meant to doand the function definition, but otherwise the file is empty.
+Look at the three code samples and write a review as if this were code written by one of your students. Each file represents one "exercise" where they're given a description of what the function is meant to do and the function definition, but otherwise the file is empty.
 
 For example, this is what the student sees when starting the `countValue` exerise: <https://github.com/jfarmer/exercises-javascript-fundamentals/blob/master/exercises/arrays/countValue/countValue.js>
 
@@ -14,4 +14,4 @@ What do you think they're confused about? How can you give feedback that helps t
 
 1. Fork this repository
 1. Submit a PR against your fork to the main repository
-1. On the PR, write a review / leave comments as if they were feedback to the students
+1. On the PR, write a review / leave comments as if they were feedback to the student
