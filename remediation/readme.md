@@ -14,4 +14,4 @@ What do you think they're confused about? How can you give feedback that helps t
 
 1. Fork this repository
 1. Submit a PR against your fork to the main repository
-1. On the PR, write a review / leave comments as if they were feedback to the students
+1. On the PR, write a review / leave comments as if they were feedback to the student

@@ -15,7 +15,7 @@ I'm quickly glancing at your line 42.  Are you sure that array only has 2 even n
 
 2) Important note on 'for' loops: 
 
-The second argument in 'for' loops, which represents the condition that has to be true in order for the loop to continue is calculated EACH LOOP.  So that was a bunch of words but here is what those words mean:   on line 15 your 'array.length' is calculated EACH LOOP.  And, if you look down to line 19, you are using the 'splice' method which is going to alter the length of the array.  So if there are odd numbers in the array, the array length will change and you may not iterate over all values.  
+The second argument in 'for' loops, which represents the condition that has to be true in order for the loop to continue, is calculated EACH LOOP.  So that was a bunch of words but here is what those words mean:   on line 15 your 'array.length' is calculated EACH LOOP.  And, if you look down to line 19, you are using the 'splice' method which is going to alter the length of the array.  So if there are odd numbers in the array, the array length will change and you may not iterate over all values.  
 
 Quick note on array methods: some alter the original array, others don't.  It is VERY IMPORTANT to know whether the method you're using alters the original array. Splice alters the original array.
 
